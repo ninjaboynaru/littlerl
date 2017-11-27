@@ -31,7 +31,7 @@ You can try it out without instaling and setting up your own server at the fallo
 
 ### Installation
 Clone the repo
-> git clone https://github.com/DjDCH/----.git
+> git clone https://github.com/ninjaboynaru/littlerl.git
 
 Install dependencies
 > npm install
