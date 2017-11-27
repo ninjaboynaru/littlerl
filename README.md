@@ -3,7 +3,7 @@
 ## Little Rl
 **Little Resource Locator**  
 A full stack ULR Shortening API and web application *(responsive)*, using Node Express and MongoDB as a backend, and a base36 number key system to represent urls.  
-[Try it out at](website.com)
+[Try it out here](https://littlerl.herokuapp.com/)
 
 |   |   |
 |---|---|
@@ -17,7 +17,7 @@ The end point for url redirection is **serverUrl/a/{unique base36 key}**.
 This is detailed more in the [API Usage Section](#usage).
 
 You can try it out without instaling and setting up your own server at the fallowing url.
-[www.heroku.com](www.heroku.com)  
+[https://littlerl.herokuapp.com/](https://littlerl.herokuapp.com/)  
 
 
 
@@ -142,7 +142,7 @@ If for any reason an error occurs, a json object like the following will be retu
 
 ***
 You can try it out without instaling and setting up your own server at the fallowing url.
-[www.heroku.com](www.heroku.com)  
+[https://littlerl.herokuapp.com/](https://littlerl.herokuapp.com/)   
 
 ### Possible Improvements
 - Change key system to base62. A 5 digit base36 number can represent upt to 60 million urls. Urls start to not be so short after 5-6 digit keys. A 5 digit base62 number can represent up to 900 million urls. A small improvement.
