@@ -1,0 +1,36 @@
+{
+	"name": "urlshortner_miniapi",
+	"author": "Thiago HPC",
+	"version": "1.0.0",
+	"private": true,
+	"main": "server.js",
+	"description": "Full stack URL Shortener micro api and front end interface (webpage)",
+	"scripts": {
+		"test": "mocha _tests_ --recursive --reporter spec",
+		"lint": "eslint **/*.{js,jsx} --quiet",
+		"comb": "csscomb ./www/css --verbose",
+		"start": "node ./api/server.js",
+		"start-dev": "nodemon ./api/server.js",
+		"build": "webpack",
+		"watch": "webpack --watch"
+	},
+	"dependencies": {
+		"express": "^4.16.2",
+		"mongodb": "^2.2.33",
+		"url-regex": "^4.1.1",
+		"webpack": "^3.8.1"
+	},
+	"devDependencies": {
+		"chai": "^4.1.2",
+		"chai-http": "^3.0.0",
+		"csscomb": "^4.2.0",
+		"eslint": "^4.11.0",
+		"eslint-loader": "^1.9.0",
+		"jest": "^21.2.1",
+		"mocha": "^4.0.1",
+		"nodemon": "^1.12.1",
+		"request": "^2.83.0",
+		"sinon": "^4.1.2",
+		"sinon-chai": "^2.14.0"
+	}
+}

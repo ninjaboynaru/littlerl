@@ -1,0 +1,23 @@
+{
+	"extends": "eslint:recommended",
+
+	"env": {
+		"es6": true,
+		"node": true,
+		"browser": true,
+		"mocha": true
+	},
+
+
+	"parserOptions": {
+		"sourceType": "module"
+	},
+
+	"rules": {
+		"new-cap": 0,
+		"eqeqeq": 0,
+		"no-console": 0,
+		"no-unreachable": 0
+	}
+
+}
